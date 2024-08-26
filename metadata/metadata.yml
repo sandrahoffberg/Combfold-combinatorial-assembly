@@ -1,0 +1,14 @@
+metadata_version: 1
+name: CombFold - Combinatorial Assembly
+description: |-
+  This is the second of two CombFold capsules.  This capsule takes PDB files from ColabFold and predicts structures for larger groups of subunits.  Then it runs the Combinatorial Assembly algorithm on all generated structures.
+
+  https://github.com/dina-lab3D/CombFold
+tags:
+- Proteomics
+- Visualization
+- Structure
+- Protein
+- Machine Learning
+authors:
+- name: Sandra Hoffberg

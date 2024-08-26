@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+
+cd /opt/
+
+git clone https://github.com/dina-lab3D/CombFold.git
+cd CombFold/CombinatorialAssembler
+git checkout 14ab52ff5eb5e93f0b4d64f22ec75a4b6ce8c5c1
+make
